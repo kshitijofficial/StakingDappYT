@@ -63,7 +63,7 @@ contract Staking is ReentrancyGuard{
     require(stakedBalance[msg.sender]>=amount,"Staked amount not enough");
     totalStakedTokens=totalStakedTokens.sub(amount);
     stakedBalance[msg.sender]=stakedBalance[msg.sender].sub(amount);
-    emit Withdrawn(msg.sender, amount);(msg.sender,amount);
+    emit Withdrawn(msg.sender, amount);
     bool success = s_stakingToken.transfer(msg.sender,amount);
     require(success,"Transfer Failed");
   }
