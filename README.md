@@ -38,16 +38,6 @@ Before using the `stake()` function, ensure that you approve the stake token to 
 ### 2) Transfer Reward Token
 Before using the `getReward()` function, transfer the reward token to the staking contract.
 
-## DApp Instructions
-
-Absolutely, here's a README file that covers the Smart Contract and DApp instructions for your project:
-
----
-
-# StakingDappYT - Smart Contract & DApp Instructions
-
-Welcome to the StakingDappYT project! This repository contains instructions for interacting with the smart contracts and deploying the DApp.
-
 ## Smart Contract Instructions
 
 ### 1) Approve Stake Token
